@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>未來教師補給站｜資源包</title>
+<style>
+:root{--g:#06a54f;--gd:#04843f;--ink:#1d2421;--mute:#5d6964;--line:#e3e8e5;--bg:#f6f8f7;--card:#fff;--warn:#b54708;--warnbg:#fff6ed}
+@media (prefers-color-scheme:dark){:root{--ink:#e8eeeb;--mute:#a3b0aa;--line:#2c3531;--bg:#121614;--card:#1a201d;--warnbg:#2a1f14;--warn:#f5a25d}}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:16px}
+header{background:var(--g);color:#fff;padding:9px 16px}
+header h1{margin:0;font-size:22px}
+header p{margin:0;font-size:14px;opacity:.95}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:0 0 auto;padding:12px 14px;color:var(--mute);text-decoration:none;font-size:15px;border-bottom:3px solid transparent;white-space:nowrap}
+nav a.on{color:var(--g);border-bottom-color:var(--g);font-weight:600}
+main{max-width:720px;margin:0 auto;padding:16px 14px 60px}
+section{display:none}section.on{display:block}
+h2{font-size:20px;margin:6px 0 4px}
+.lead{color:var(--mute);margin:0 0 14px;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+.card h3{margin:0 0 6px;font-size:17px}
+.card ul,.card ol{margin:6px 0;padding-left:22px}
+.card li{margin:4px 0}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;background:#e7f6ee;color:var(--gd);margin-right:6px;vertical-align:2px}
+@media (prefers-color-scheme:dark){.tag{background:#173a28;color:#7fe0aa}}
+.quote{border-left:4px solid var(--g);padding:4px 0 4px 12px;margin:10px 0;font-weight:600}
+.note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:14px;margin:12px 0}
+.q .opts{display:grid;gap:8px;margin:10px 0}
+.q button.opt{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg);font-size:15px}
+.q button.opt.right{border-color:var(--g);background:#e7f6ee}
+.q button.opt.wrong{border-color:#d0d5d2;opacity:.55}
+@media (prefers-color-scheme:dark){.q button.opt.right{background:#173a28}}
+.q .ans{display:none;margin-top:6px}
+.q.done .ans{display:block}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.filters button{all:unset;cursor:pointer;font-size:14px;padding:5px 12px;border-radius:99px;border:1px solid var(--line);background:var(--card)}
+.filters button.on{background:var(--g);color:#fff;border-color:var(--g)}
+.row{display:grid;grid-template-columns:4.5em 1fr;gap:4px 10px;font-size:15px;margin:6px 0}
+.row b{color:var(--mute);font-weight:500}
+.bad{color:#c4320a}
+@media (prefers-color-scheme:dark){.bad{color:#ff8a65}}
+.kw{display:inline-block;font-family:inherit;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:0 8px;margin:2px 2px;font-size:15px}
+footer{color:var(--mute);font-size:13px;text-align:center;padding:10px 16px 30px}
+</style>
+</head>
+<body>
+<header>
+  <p>🎓 給師培生、實習老師與代理代課老師的現場資源包</p>
+</header>
+<nav id="nav">
+  <a href="#kit">🧰 新手救命包</a>
+  <a href="#quiz">💬 情境題庫</a>
+  <a href="#bank">📚 現場情境手冊</a>
+  <a href="#jobs">📢 代理代課</a>
+  <a href="#exam">🎯 教甄準備</a>
+  <a href="#ask">✉️ 問校長</a>
+</nav>
+<main>
+
+<!-- 新手救命包 -->
+<section id="kit">
+  <h2>新手救命包</h2>
+  <p class="lead">第一年進學校，做到這七件事就能站穩。</p>
+
+  <div class="card">
+    <h3>第一年的七件事</h3>
+    <ol>
+      <li><b>開學第一週就訂規則。</b>聯絡管道、回覆時間、班規、作業量，寫進給家長的一封信。</li>
+      <li><b>先讀三份文件。</b>學校的「教師輔導與管教學生辦法」、手機管理規範、校安通報流程。</li>
+      <li><b>重要的事當天留紀錄。</b>只寫人、事、時、地、物和客觀的話，不加形容詞。</li>
+      <li><b>壞消息由老師先說。</b>孩子受傷、衝突、成績大退步，主動告知家長。</li>
+      <li><b>不要一個人扛。</b>導師、學務處、輔導室、資深同事都是你的團隊。</li>
+      <li><b>第一通電話要報喜。</b>開學第一個月，讓每位家長先聽到孩子的一件好事。</li>
+      <li><b>照顧自己。</b>離線時間不是偷懶，是讓你可以教得久。</li>
+    </ol>
+    <div class="quote">新手最常犯的錯，不是處理錯，而是自己處理。</div>
+  </div>
+
+  <div class="card">
+    <h3>開學第一週檢查表</h3>
+    <ul>
+      <li>向教務處拿課表、教科書、教學進度</li>
+      <li>問領域召集人：上一位老師教到哪裡？</li>
+      <li>問學務處：班級事件找誰？校安通報流程是什麼？</li>
+      <li>問輔導室：班上有沒有需要特別注意的學生？特教生的 IEP 在哪裡看？</li>
+      <li>寄出「給家長的一封信」，寫清楚聯絡時間與管道</li>
+      <li>訂好班級群組公約，或改用一對多的官方帳號</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>代課救命包（隨身準備一份）</h3>
+    <p>臨時被叫去代課、完全不知道要教什麼時，用得上：</p>
+    <ul>
+      <li>一份 15 分鐘的閱讀任務單（短文＋三題問題）</li>
+      <li>一個不需道具的小遊戲（例如分組搶答、20 個問題）</li>
+      <li>一份可以當堂完成的小測驗或學習單</li>
+    </ul>
+    <p class="lead">不要整節課讓學生「自習」，很容易吵翻。</p>
+  </div>
+
+  <div class="card">
+    <h3>親師溝通四句話</h3>
+    <div class="row"><b>回覆</b><span>「收到，明天上班時間打電話跟您說明。」</span></div>
+    <div class="row"><b>用詞</b><span>說「代為保管」，不說「沒收」。</span></div>
+    <div class="row"><b>群組</b><span>「這件事我私下跟您聯絡。」群組說公事，私下處理情緒。</span></div>
+    <div class="row"><b>陳述</b><span>說看到的行為，不說人格：「今天上課有三次離開座位」，而不是「他很沒規矩」。</span></div>
+  </div>
+  <p class="note">所有做法請以你任教學校的辦法與最新法規為準。</p>
+</section>
+
+<!-- 情境題庫 -->
+<section id="quiz">
+  <h2>情境題庫：如果是你，怎麼辦？</h2>
+  <p class="lead">改編自真實校園事件。先選答案，再看現場怎麼做。</p>
+  <div id="quizList"></div>
+  <p class="note">答案是處理「原則」，實際以你學校的辦法為準。</p>
+</section>
+
+<!-- 現場情境手冊 -->
+<section id="bank">
+  <h2>現場情境手冊</h2>
+  <p class="lead">老師最常遇到的情境：建議做法和最常踩的地雷。</p>
+  <div class="filters" id="filters"></div>
+  <div id="bankList"></div>
+</section>
+
+<!-- 代理代課 -->
+<section id="jobs">
+  <h2>代理代課</h2>
+  <p class="lead">代理代課是最好的實習：累積現場經驗，也是教甄口試最好的素材。</p>
+
+  <div class="card">
+    <h3>職缺怎麼收到？</h3>
+    <p>在補給站回傳你的資料（科目、希望任教縣市、是否願意接收職缺通知），有符合的甄選公告就會通知你。</p>
+    <p>也可以隨時在聊天室輸入 <span class="kw">職缺</span>。</p>
+    <p class="note">所有職缺一律依各校簡章公開甄選，補給站只負責通知，不推薦、不保留名額。</p>
+  </div>
+
+  <div class="card">
+    <h3>代理和代課差在哪？</h3>
+    <div class="row"><b>代理</b><span>代理請假或缺額老師的全部職務，有固定聘期，通常要經過甄選。</span></div>
+    <div class="row"><b>代課</b><span>只代上課，按節計酬，常是短期、臨時的。</span></div>
+    <p class="lead">薪資、寒暑假支薪、再聘條件都依各縣市規定與簡章，報名前一定要看清楚。</p>
+  </div>
+
+  <div class="card">
+    <h3>報名前要看的四件事</h3>
+    <ul>
+      <li>聘期：從哪天到哪天？</li>
+      <li>任教科目、節數，要不要帶導師或兼行政</li>
+      <li>甄選方式：試教、口試的比例與時間</li>
+      <li>要準備的文件：學歷、教師證或學分證明、身分證件</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>面試最後，可以反問這三題</h3>
+    <ol>
+      <li>要配幾科、教幾節？</li>
+      <li>需不需要帶導師或兼行政？</li>
+      <li>遇到親師衝突時，學校的支援流程是什麼？</li>
+    </ol>
+    <div class="quote">學校最記得的，是開學第一週來救火的人。</div>
+  </div>
+</section>
+
+<!-- 教甄準備 -->
+<section id="exam">
+  <h2>教甄準備</h2>
+  <p class="lead">筆試靠累積，口試和試教靠「現場感」。</p>
+
+  <div class="card">
+    <h3>一年的節奏</h3>
+    <div class="row"><b>秋冬</b><span>筆試打底：教育專業科目、任教科目內容。</span></div>
+    <div class="row"><b>春季</b><span>各縣市陸續公告簡章，逐一確認報名日期、科目與考試方式。</span></div>
+    <div class="row"><b>放榜後</b><span>沒考上也別空白：投入代理甄選，累積明年口試的故事。</span></div>
+    <p class="lead">確切日期以各縣市與各校最新公告為準。</p>
+  </div>
+
+  <div class="card">
+    <h3>口試：評審想聽什麼</h3>
+    <ul>
+      <li><b>具體經驗勝過理論。</b>每題都準備一個你親自處理過的例子。</li>
+      <li><b>先講原則，再講做法。</b>例如「先確保安全，再通知學務處和家長，最後留紀錄」。</li>
+      <li><b>展現團隊感。</b>會提到導師、學務、輔導、家長，評審就知道你不會一個人亂衝。</li>
+      <li><b>懂法規但不背法條。</b>知道管教辦法、通報義務、手機規範的精神就好。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>口試常見題型，用情境題庫練習</h3>
+    <ul>
+      <li>家長深夜傳訊息質疑你，你怎麼回？</li>
+      <li>學生上課滑手機，你怎麼處理？</li>
+      <li>班上有學生被霸凌，你的第一步是什麼？</li>
+      <li>學生用 AI 寫作業，你怎麼設計評量？</li>
+    </ul>
+    <p><a href="#quiz">→ 去情境題庫練習</a></p>
+  </div>
+
+  <div class="card">
+    <h3>試教：10 分鐘的小原則</h3>
+    <ul>
+      <li>開頭 30 秒抓住注意力：一個問題、一張圖、一個生活例子</li>
+      <li>一定要有「學生」：對著評審提問、走動、給回饋</li>
+      <li>板書有結構：標題、重點、例子分區</li>
+      <li>最後一分鐘收束：總結＋一個小檢核</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 問校長 -->
+<section id="ask">
+  <h2>問校長</h2>
+  <p class="lead">實習、教甄、班級經營、親師溝通，有問題都可以直接問。</p>
+  <div class="card">
+    <h3>怎麼問</h3>
+    <ol>
+      <li>回到 LINE「未來教師補給站」的聊天室</li>
+      <li>直接打出你的問題，越具體越好：發生什麼事、你試過什麼、卡在哪裡</li>
+      <li>上班日會盡快回覆，平日還有學校工作，請耐心等候</li>
+    </ol>
+    <p class="note">提問時請不要寫出學生或家長的真實姓名與學校。這是一對一聊天，其他加入者看不到。</p>
+  </div>
+  <div class="card">
+    <h3>聊天室可以輸入的關鍵字</h3>
+    <p>
+      <span class="kw">救命包</span><span class="kw">情境題</span><span class="kw">職缺</span>
+      <span class="kw">教甄</span><span class="kw">代理</span><span class="kw">登錄</span>
+      <span class="kw">刪除資料</span>
+    </p>
+  </div>
+  <div class="card">
+    <h3>你的資料</h3>
+    <p>只用於教育交流、資訊服務，以及經你同意的職缺通知，不公開、不轉給其他人。想停止通知或刪除資料，在聊天室輸入 <span class="kw">刪除資料</span>，或直接告訴我們。</p>
+  </div>
+</section>
+</main>
+<footer>未來教師補給站｜個人教育交流平台，非任何學校之官方徵才管道</footer>
+
+<script>
+const QUIZ=[
+ {t:"晚上 11 點的 LINE",q:"家長傳來：「老師，我兒子說你今天瞪他。」你會？",o:["立刻回覆解釋","已讀不回","隔天上班時間回覆","截圖傳給主任"],a:2,
+  e:"開學第一週就跟家長說好：什麼時間、用什麼管道聯絡。急事打學校電話，其他上班時間回。隔天回覆時講事實、不辯解。",k:"界線要先說，不要事後說。"},
+ {t:"收手機，家長說是「我家的財產」",q:"上課學生一直滑手機，你收走了，家長打來說你侵犯財產權。你的回應重點是？",o:["說明這是沒收，下學期才還","依學校規範「代為保管」，當天歸還或請家長領回","道歉，以後不再收"],a:1,
+  e:"依學校經校務會議通過的手機管理規範處理：開學就公告、家長知悉；保管期間不能損壞；當天歸還或請家長領回；留紀錄。事前約定，比事後辯解有用 10 倍。",k:"同一件事，換一個詞，少一場風暴。"},
+ {t:"講桌上的平板被劃破",q:"有同學偷偷說是常頂嘴的 A 做的。你的第一步是？",o:["在班上發不記名問卷：「大家覺得是誰做的？」","把 A 叫到辦公室質問，要家長賠償","拍照留證，報告學務處處理"],a:2,
+  e:"改編自真實判決：老師用問卷推測究責，後來被檢舉，反告學生、家長與學校也敗訴。同學的「推測」在法律上沒有證據力。",k:"推測不是證據，老師不辦案。"},
+ {t:"家長在班級群組公開質疑",q:"家長在群組說作業太多，其他家長開始按讚。你會？",o:["在群組寫長文解釋","把他踢出群組","簡短回「我私下跟您聯絡」，再打電話","假裝沒看到"],a:2,
+  e:"群組是公告欄，不是辯論台。開學就訂群組公約，或改用一對多的官方帳號，家長彼此看不到，就不會有人領頭按讚。",k:"群組說公事，私下處理情緒。"},
+ {t:"學生失控，拿起折斷的掃把",q:"上課時學生情緒失控，折斷掃把揮舞。你的第一個反應是？",o:["趕快上前奪下掃把","退到安全距離、疏散其他學生、大聲呼叫支援","拿手機近距離錄影蒐證"],a:1,
+  e:"老師的專業是教育，不是當防暴肉盾。先保護其他學生和自己，讓學務處、特教老師、校安團隊處理。因公受傷可申請公傷假；合法管教卻被告，可申請因公涉訟輔助（適用範圍請問學校人事室）。",k:"你不是一個人，學校是一個團隊。"},
+ {t:"家長已讀不回好幾個月",q:"班上孩子多次翻桌、弄傷同學，家長好幾個月已讀不回、拒絕到校。你會？",o:["建議受害家長在群組點名","放棄，叫其他同學離他遠一點","走正式程序：立案、校安通報，請教育局召集社政、醫療跨單位介入"],a:2,
+  e:"一位導師在 LINE 上苦等，等一年也等不到結果。嚴重個案要依法拉高層級，讓專業網絡一起接住這個孩子。",k:"一個導師接不住的孩子，就要一個系統來接。"},
+ {t:"學生用 AI 寫的作文比你好",q:"你發現學生交的作文明顯是 AI 寫的。比較好的做法是？",o:["直接給零分","全面禁止使用 AI","改評量設計：課堂寫、口頭追問、交修改歷程"],a:2,
+  e:"禁是禁不完的。改成課堂寫作、口頭追問、交修改歷程，甚至讓學生來批改 AI 的作品。先確認學校對 AI 使用的規範。",k:"未來的老師不是和 AI 比寫，是教孩子怎麼問。"}
+];
+const BANK=[
+ ["親師溝通","家長沒預約就衝到教室門口理論","請家長到會客室或輔導室，請行政同仁陪同；學生先交給其他老師照顧","在學生面前跟家長對峙"],
+ ["親師溝通","家長要求每天回報孩子在校狀況","協調可行頻率（例如每週一次聯絡簿回饋），特殊需求請輔導室一起討論","一口答應，後來做不到反而失信"],
+ ["親師溝通","家長要求換座位、換組、不跟某同學同組","先問原因（可能有霸凌或衝突）；合理就調，不合理就說明排座原則","直接當成家長特權處理"],
+ ["親師溝通","離婚家長各說各話，一方要求不讓另一方接孩子","請家長提供法院裁定或正式文件，交給學務處處理","老師自己判斷誰可以接"],
+ ["親師溝通","家長不接電話、不回聯絡簿，孩子問題越來越多","留下聯繫紀錄，請輔導室或學務處協助；疑似疏忽就依法通報","放棄，或叫學生傳話"],
+ ["班級經營","全班上課很吵，講幾次都沒用","訂出「安靜訊號」與獎勵制度，帶頭的學生個別談，和導師一起訂班規","大吼、摔書、全班連坐"],
+ ["班級經營","學生作業長期不交","先了解原因（不會寫、家庭因素），調整份量、安排補寫、通知家長","在黑板公開寫未交名單"],
+ ["班級經營","學生上課走動、頂嘴","保持冷靜、不站起來對峙；課後個別談，必要時請學務處協助","拉扯學生身體"],
+ ["班級經營","學生翹課或沒來上學","依學校流程立即通知學務處與家長；第一節點名一定要確實","以為「下節就回來了」"],
+ ["班級經營","學生在課堂偷拍老師或同學","依手機規範代為保管，在家長或行政陪同下刪除；涉及性平就通報","自己翻學生手機"],
+ ["輔導與特教","學生私下說「我不想活了，你不能跟別人講」","告訴他「我很在乎你，所以不能幫你保密」，當天陪他到輔導室，依規定通報","答應保密，或自己一個人處理"],
+ ["輔導與特教","學生身上有不明的傷，說是在家被打","記下學生原話與觀察，依法於時限內通報，同步告知輔導室","自己打電話質問家長"],
+ ["輔導與特教","學生說被同學不當碰觸或傳色情圖","聽完、記錄，立即告知學務處並依性平流程通報","叫雙方來對質，或交代「不要講出去」"],
+ ["輔導與特教","特教生上課情緒崩潰","先讀 IEP 了解觸發點與安撫方式，事先和特教老師訂好危機處理流程","等出事才去問特教組"],
+ ["校園安全","體育課學生說不舒服想休息","讓他休息、請同學陪同到健康中心；事先看過學生健康資料","「你就是想偷懶」"],
+ ["校園安全","校外教學或比賽帶隊","簽核、家長同意書、保險、緊急聯絡人清單，一樣都不能少","「反正很近，帶去就好」"],
+ ["校園安全","學生在校外打架，影片上網了","先通知學務處，由學校統一處理與發言","自己在網路下留言澄清"],
+ ["新手與同事","第一天到校，沒人告訴你要做什麼","主動找教務處拿課表、教科書、進度，問領域召集人上一位老師教到哪","自己猜、不好意思問"],
+ ["新手與同事","資深同事說「這種學生就要用力管」","尊重經驗，但做法以學校管教辦法為準；不確定就問學務處","照抄「以前的做法」"],
+ ["新手與同事","行政一直丟工作給你","對照聘約與職責，向主管說明進度與負擔，請他協助排優先順序","全部答應、最後爆掉"],
+ ["數位與社群","學生在 IG 追蹤你、私訊聊天","個人帳號設私人，課業聯繫只用學校官方管道","深夜獨自跟學生私聊"],
+ ["數位與社群","想在自己的社群貼上課照片","先確認家長同意與學校規定；不露學生臉、姓名、學號","拿學生當梗"],
+ ["數位與社群","有人把你上課的片段剪接後上網","截圖保存，先報告校長與學務處，由學校統一回應","自己開直播反擊"]
+];
+function quiz(){
+ const box=document.getElementById('quizList');
+ QUIZ.forEach((x,i)=>{
+  const d=document.createElement('div');d.className='card q';
+  d.innerHTML=`<span class="tag">情境 ${i+1}</span><h3>${x.t}</h3><div>${x.q}</div><div class="opts"></div><div class="ans"><p><b>現場怎麼做：</b>${x.e}</p><div class="quote">${x.k}</div></div>`;
+  const o=d.querySelector('.opts');
+  x.o.forEach((t,j)=>{const b=document.createElement('button');b.className='opt';b.textContent=String.fromCharCode(65+j)+'　'+t;
+   b.onclick=()=>{o.querySelectorAll('button').forEach((y,k)=>y.classList.add(k===x.a?'right':'wrong'));d.classList.add('done')};o.appendChild(b)});
+  box.appendChild(d);
+ });
+}
+function bank(){
+ const cats=['全部',...new Set(BANK.map(b=>b[0]))],f=document.getElementById('filters'),l=document.getElementById('bankList');
+ const draw=c=>{l.innerHTML='';BANK.filter(b=>c==='全部'||b[0]===c).forEach(b=>{const d=document.createElement('div');d.className='card';
+  d.innerHTML=`<span class="tag">${b[0]}</span><h3>${b[1]}</h3><div class="row"><b>建議做法</b><span>${b[2]}</span></div><div class="row"><b class="bad">地雷</b><span>${b[3]}</span></div>`;l.appendChild(d)});
+  f.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.textContent===c))};
+ cats.forEach(c=>{const b=document.createElement('button');b.textContent=c;b.onclick=()=>draw(c);f.appendChild(b)});
+ draw('全部');
+}
+function route(){
+ const id=(location.hash||'#kit').slice(1),ok=document.getElementById(id)&&document.querySelector('nav a[href="#'+id+'"]')?id:'kit';
+ document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id===ok));
+ document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+ok));
+ window.scrollTo(0,0);
+}
+quiz();bank();route();window.addEventListener('hashchange',route);
+</script>
+</body>
+</html>
