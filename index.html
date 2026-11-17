@@ -43,6 +43,7 @@ h2{font-size:20px;margin:6px 0 4px}
 .bad{color:#c4320a}
 @media (prefers-color-scheme:dark){.bad{color:#ff8a65}}
 .kw{display:inline-block;font-family:inherit;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:0 8px;margin:2px 2px;font-size:15px}
+details.card summary{cursor:pointer;font-size:16px;list-style:none}details.card summary::-webkit-details-marker{display:none}details.card summary::before{content:'＋ ';color:var(--g)}details.card[open] summary::before{content:'－ '}details.card p{margin:10px 0 0}
 footer{color:var(--mute);font-size:13px;text-align:center;padding:10px 16px 30px}
 </style>
 </head>
@@ -56,7 +57,7 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:10px 16px 30px
   <a href="#bank">📚 現場情境手冊</a>
   <a href="#jobs">📢 代理代課</a>
   <a href="#exam">🎯 教甄準備</a>
-  <a href="#ask">✉️ 問校長</a>
+  <a href="#faq">❓ 常見問答</a>
 </nav>
 <main>
 
@@ -213,31 +214,38 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:10px 16px 30px
   </div>
 </section>
 
-<!-- 問校長 -->
-<section id="ask">
-  <h2>問校長</h2>
-  <p class="lead">實習、教甄、班級經營、親師溝通，有問題都可以直接問。</p>
-  <div class="card">
-    <h3>怎麼問</h3>
-    <ol>
-      <li>回到 LINE「未來教師補給站」的聊天室</li>
-      <li>直接打出你的問題，越具體越好：發生什麼事、你試過什麼、卡在哪裡</li>
-      <li>上班日會盡快回覆，平日還有學校工作，請耐心等候</li>
-    </ol>
-    <p class="note">提問時請不要寫出學生或家長的真實姓名與學校。這是一對一聊天，其他加入者看不到。</p>
-  </div>
-  <div class="card">
-    <h3>聊天室可以輸入的關鍵字</h3>
-    <p>
-      <span class="kw">救命包</span><span class="kw">情境題</span><span class="kw">職缺</span>
-      <span class="kw">教甄</span><span class="kw">代理</span><span class="kw">登錄</span>
-      <span class="kw">刪除資料</span>
-    </p>
-  </div>
-  <div class="card">
-    <h3>你的資料</h3>
-    <p>只用於教育交流、資訊服務，以及經你同意的職缺通知，不公開、不轉給其他人。想停止通知或刪除資料，在聊天室輸入 <span class="kw">刪除資料</span>，或直接告訴我們。</p>
-  </div>
+<!-- 常見問答 -->
+<section id="faq">
+  <h2>常見問答 FAQ</h2>
+  <p class="lead">師培生最常問的問題。各項規定以各縣市、各校最新簡章與法規為準。</p>
+
+  <details class="card"><summary><b>代理和代課差在哪？</b></summary>
+    <p>代理是代理請假或缺額老師的全部職務，有固定聘期，通常要經過甄選；代課只代上課，按節計酬，多半是短期或臨時的。</p></details>
+
+  <details class="card"><summary><b>還沒有教師證，可以去代理代課嗎？</b></summary>
+    <p>可以報名，但學校會先聘具教師證的人。很多學校會分好幾次招考，前幾次限有教師證，後面幾次才放寬資格，所以要留意每一次的簡章。</p></details>
+
+  <details class="card"><summary><b>教師資格考、教育實習、教師證的順序是什麼？</b></summary>
+    <p>修畢師資職前教育課程後，先參加教師資格考試，通過後再完成半年的教育實習，成績及格才取得教師證。實習通常在 8 月或 2 月開始。</p></details>
+
+  <details class="card"><summary><b>輔系、雙主修、第二專長有用嗎？</b></summary>
+    <p>有。修畢該科的專門課程並加註在教師證上，就能報考或任教更多科別。小校常需要「一人教多科」的老師，多一個專長在代理甄選時很加分。</p></details>
+
+  <details class="card"><summary><b>教甄大概考什麼？</b></summary>
+    <p>多數是初試筆試（教育專業科目、任教科目），通過後複試試教和口試。有縣市聯合甄選，也有學校自辦，報名時間和科目每年不同，請以當年簡章為準。可以先看「教甄準備」分頁。</p></details>
+
+  <details class="card"><summary><b>代理經驗對考正式老師有幫助嗎？</b></summary>
+    <p>有。口試和試教最需要「真的處理過的例子」，代理一年累積的班級經營、親師溝通經驗都是最好的素材。部分甄選也會採計代理年資，依簡章規定。</p></details>
+
+  <details class="card"><summary><b>代理老師會被派導師或兼行政嗎？</b></summary>
+    <p>有可能，要看學校的缺額與聘約。報名前先看簡章的工作內容，面試時也可以直接問「要不要帶導師或兼行政」。</p></details>
+
+  <details class="card"><summary><b>加入人才庫後會怎樣？資料怎麼改或刪除？</b></summary>
+    <p>填寫<a href="https://forms.gle/R8XgsHRtNyHGwiSj8">人才登錄表</a>後，有符合你科目和地區的職缺，會透過 LINE 通知你。職缺一律依各校簡章公開甄選，登錄不代表錄取或優先。</p>
+    <p>資料有變動，用表單送出後的「編輯回應」連結修改；想停止通知或刪除資料，在 LINE 聊天室輸入 <span class="kw">刪除資料</span>。</p></details>
+
+  <details class="card"><summary><b>還有其他問題可以問誰？</b></summary>
+    <p>在 LINE「未來教師補給站」聊天室留言。平日還有學校工作，會利用空檔回覆，不是即時客服，請耐心等候。提問時請不要寫出學生或家長的真實姓名與學校。</p></details>
 </section>
 </main>
 <footer>未來教師補給站｜個人教育交流平台，非任何學校之官方徵才管道</footer>
